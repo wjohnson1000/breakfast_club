@@ -1,6 +1,6 @@
 # breakfast_club
 
-FRAMEWORK CLUB CHARTER
+Breakfast Club Charter
 
 1. 8:00-8:10 - REVIEW OF WHAT EVERYONE DID LAST WEEK
 
