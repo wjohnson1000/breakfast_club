@@ -8,8 +8,5 @@ FRAMEWORK CLUB CHARTER
 
 3. 8:50-9:00 - WHERE TO NEXT
 
-THE FRAMEWORK CLUB IS AN OPEN ENDED MEETING EVERY MONDAY MORNING TO
-REVIEW WHAT MEMBERS EXPLORED IN THE PREVIOUS WEEK.  THE MONDAY MEETING
-IS ONLY A REVIEW. THE SUCCESS OF THE CLUB RESTS UPON ITS MEMBERS EXPLORING
-NEW FRAMEWORKS OR LIBRARIES THROUGHOUT THE WEEK IN AN INDIVIDUAL OR COLLABORATIVE MANNER.
+The Breakfast Club is an open ended meeting every Monday Morning to review what members explored in the previous week.  The Monday meeting is only a review.  The success of the club rests upon its members exploring new frameworks or libraries throughout the week in an individual or collaborative manner.
 
