@@ -1,0 +1,78 @@
+
+<link rel="import"
+      href="bower_components/polymer/polymer.html">
+
+  <template>
+      <!-- scoped CSS for this element -->
+      <style>
+        proto-element {
+          border: 2px solid red;
+        }
+      </style>
+
+    </template>
+
+<script>
+  // register a new element called proto-element
+  Polymer({
+    is: "proto-element"
+    // add a callback to the element's prototype
+    ready: function() {
+      this.textContent = "I'm a proto-element. Check out my prototype!"
+    }
+  });
+</script>
+
+<link rel="import"
+      href="bower_components/polymer/polymer.html">
+<!-- import the iron-input custom element -->
+<link rel="import"
+      href="bower_components/iron-input/iron-input.html">
+
+<dom-module id="what-day">
+
+  <template>
+    <p>
+    Today is {{day}}.
+    </p>
+    <!-- iron-input exposes a two-way bindable input value -->
+    <input is="iron-input" bind-value="{{owner}}"
+      placeholder="Change the day...">
+  </template>
+
+  <script>
+    Polymer({
+      is: "what-day",
+      properties: {
+        day: {
+          type: String,
+          value: "Sunday"
+        }
+      }
+    });
+  </script>
+
+</dom-module>
+
+<dom-module id="list-x">
+
+  <template>
+    <ul>
+      <label for="">Is this working?</label>
+      <li>This is here already.</li>
+      <content></content>
+    </ul>
+  </template>
+
+  <script>
+    Polymer({
+      is: 'list-x',
+      function(){
+        var toLocal = document.createElement('li');
+        document.getElementsByTagName("ul").appendChild(toLocal);
+        // Polymer.dom(this.root).appendChild(toLocal);
+      }
+    });
+  </script>
+
+</dom-module>

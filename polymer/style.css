@@ -1,0 +1,32 @@
+body {
+  display: flex;
+  flex-direction: row;
+  align-content:center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.regular {
+  width: 40%;
+  border: 2px solid green;
+  text-align: center;
+  margin: 0 auto;
+}
+list-x {
+  width: 40%;
+  border: 2px solid red;
+  text-align: center;
+  margin: 0 auto;
+}
+proto-element {
+  width: 40%;
+  border: 2px solid red;
+  text-align: center;
+  margin: 0 auto;
+}
+what-day {
+  width: 40%;
+  border: 2px solid red;
+  text-align: center;
+  margin: 0 auto;
+}
